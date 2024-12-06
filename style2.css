@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+    background-color: rgb(216, 216, 216);
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+   
+}
+nav{
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+.nav-first{
+    color: white;
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+   padding: 15px 0px;
+   letter-spacing: 3px;
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.nav-second{
+    display: flex;
+   justify-content: space-between;
+    font-size: 14px;
+    padding: 10px 0px;
+    align-items: center;
+}
+.logo{
+    background-color: #FF9500;
+    height: 54px;
+    width: 54px;
+    border-radius: 10px;
+}
+.logo img{
+    width: 100%;
+}
+.nav-items{
+    align-items: center;
+    width: 60%;
+    display: flex;
+    gap: 25px;
+    
+}
+.nav-second a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.btn{
+    width: 30%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+}
+.btn .btn-1{
+    padding: 10px 20px;
+   
+}
+
+.btn .btn-2 a{
+    background-color: #FF9500;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+.btn .btn-1 a:hover{
+    color: white;
+    background-color: #FF9500;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn .btn-2 a:hover{
+    background-color: white;
+    color: black;
+}
+.main-section{
+        padding: 50px 5px;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+}
+.main-section .main-l{
+    width: 50%;
+    font-size: 25px;
+}
+.main-section .main-r {
+	width: 50%;
+	font-size: 14px;
+	line-height: 23px;
+}
+.card-section-2{
+    padding: 70px 0px;
+}
+.card-section-2 .text{
+    padding-bottom: 40px;
+}
+.card-section-2 .text p{
+    font-size: 40px;
+        font-weight: 600;
+        color: #262626;
+}
+.card-section-2 .text .txt-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.card-section-2 .text .txt-sec span{
+    width: 70%;
+    font-size: 15px;
+   color: #59595A;
+}
+.card-section-2 .text .txt-sec a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 10px;
+    border-radius: 5px;
+}
+.card-section-2 .card .image-sec {
+	display: flex;
+	gap: 40px;
+    padding-bottom: 20px;
+}
+.card-section-2 .card .image-sec img{
+    width: 100%;
+}
+.card-section-2 .card .txt{
+    display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.card-section-2 .card .txt .week-beginer{
+        display: flex;
+        gap: 25px;
+        color: #4C4C4D;
+        font-size: 14px;
+}
